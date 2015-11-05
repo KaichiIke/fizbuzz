@@ -13,6 +13,10 @@ for ($i = 1 ;  $i <=100; $i++){
 		echo 'buzz';
 		}
 	
+	else if($i %7 == 0){
+		echo 'git';
+		}
+	
 	else{
 		echo $i;
 		}
